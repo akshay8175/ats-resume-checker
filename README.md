@@ -23,3 +23,54 @@ The ATS Engine performs:
 4. Case-insensitive keyword matching
 5. Score calculation:
 
+---
+
+## 📁 Project Structure
+
+ats-resume-checker/
+│
+├── index.html
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+│
+└── src/
+├── main.jsx
+├── App.jsx
+├── components/
+├── utils/
+├── hooks/
+└── styles/
+
+---
+
+---
+
+## 🏗️ Tech Stack
+
+- ⚛️ React 18
+- ⚡ Vite
+- 🎨 TailwindCSS
+- 📄 pdfjs-dist (PDF parsing)
+- 🌐 GitHub Pages Deployment
+
+---
+
+## 🛠️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/akshay8175/ats-resume-checker.git
+cd ats-resume-checker
+```
+
+Install dependencies:
+
+> npm install
+
+Run development server:
+
+> npm run dev
+
