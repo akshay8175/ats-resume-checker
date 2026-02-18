@@ -27,6 +27,7 @@ The ATS Engine performs:
 
 ## 📁 Project Structure
 
+```bash
 ats-resume-checker/
 │
 ├── index.html
@@ -36,12 +37,13 @@ ats-resume-checker/
 ├── postcss.config.js
 │
 └── src/
-├── main.jsx
-├── App.jsx
-├── components/
-├── utils/
-├── hooks/
-└── styles/
+    ├── main.jsx
+    ├── App.jsx
+    ├── components/
+    ├── utils/
+    ├── hooks/
+    └── styles/
+```
 
 ---
 
@@ -68,9 +70,11 @@ cd ats-resume-checker
 
 Install dependencies:
 
-> npm install
+```bash
+  npm install
+```
 
 Run development server:
-
-> npm run dev
-
+```bash
+npm run dev
+```
